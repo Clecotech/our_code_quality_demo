@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Post renders a post's title and body 1`] = `
+<div
+  className="Table"
+>
+  <ForwardRef(Grid)
+    container={true}
+  >
+    <ForwardRef(Grid)
+      item={true}
+      sm={4}
+      xs={2}
+    >
+      <div
+        className="PostContainer"
+      >
+        John
+      </div>
+    </ForwardRef(Grid)>
+    <ForwardRef(Grid)
+      item={true}
+      sm={4}
+      xs={2}
+    >
+      <div
+        className="PostContainer"
+      >
+        Doe
+      </div>
+    </ForwardRef(Grid)>
+    <ForwardRef(Grid)
+      className="PostContainer"
+      item={true}
+      sm={4}
+      xs={8}
+    >
+      <div
+        className="Postbtn"
+      >
+        <ForwardRef(Button)
+          id="reverse"
+          onClick={[Function]}
+          sx={
+            Object {
+              "borderRadius": "1.5rem",
+            }
+          }
+          variant="contained"
+        >
+          Reverse Title
+        </ForwardRef(Button)>
+        <ForwardRef(Button)
+          id="delete"
+          onClick={[Function]}
+          sx={
+            Object {
+              "borderRadius": "1.5rem",
+            }
+          }
+          variant="outlined"
+        >
+          Delete Post
+        </ForwardRef(Button)>
+      </div>
+    </ForwardRef(Grid)>
+  </ForwardRef(Grid)>
+</div>
+`;

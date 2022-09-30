@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Container renders a default posts page 1`] = `
+Array [
+  <NewPost
+    key="new-post"
+    onPostCreated={[Function]}
+/>,
+  <PostsList
+    key="posts-list"
+    onPostDeleted={[Function]}
+    posts={
+        Array [
+            Object {
+              "body": "Doe",
+              "title": "John",
+            },
+          ]
+    }
+/>,
+]
+`;

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NewPost renders empty by default 1`] = `
+<ForwardRef(Container)>
+  <ForwardRef(Grid)
+    container={true}
+  >
+    <ForwardRef(Grid)
+      className="Container"
+      item={true}
+      xs={12}
+    >
+      <ForwardRef(Box)
+        className="TextBox"
+      >
+        <ForwardRef(TextField)
+          fullWidth={true}
+          label="Please Enter Your First Name"
+          onChange={[Function]}
+          type="text"
+          value=""
+          variant="outlined"
+        />
+        <ForwardRef(TextField)
+          fullWidth={true}
+          label="Please Enter Your Second Name"
+          onChange={[Function]}
+          sx={
+            Object {
+              "marginTop": "1rem",
+            }
+          }
+          type="text"
+          value=""
+        />
+      </ForwardRef(Box)>
+      <div
+        className="btn"
+      >
+        <ForwardRef(Button)
+          onClick={[Function]}
+          sx={
+            Object {
+              "backgroundColor": "#222",
+            }
+          }
+          variant="contained"
+        >
+          Create Post
+        </ForwardRef(Button)>
+      </div>
+    </ForwardRef(Grid)>
+  </ForwardRef(Grid)>
+</ForwardRef(Container)>
+`;

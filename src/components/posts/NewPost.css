@@ -1,0 +1,17 @@
+Button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.TextBox {
+  padding-top: 3rem;
+}
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1.5rem;
+}
+.error {
+  color: red;
+}
