@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`NewPost renders empty by default 1`] = `
+exports[`NewList renders empty by default 1`] = `
 <ForwardRef(Container)>
   <ForwardRef(Grid)
     container={true}
@@ -15,7 +15,7 @@ exports[`NewPost renders empty by default 1`] = `
       >
         <ForwardRef(TextField)
           fullWidth={true}
-          label="Please Enter Your First Name"
+          label="Please Enter Your Name"
           onChange={[Function]}
           type="text"
           value=""
@@ -23,7 +23,7 @@ exports[`NewPost renders empty by default 1`] = `
         />
         <ForwardRef(TextField)
           fullWidth={true}
-          label="Please Enter Your Second Name"
+          label="Please Enter Your Email"
           onChange={[Function]}
           sx={
             Object {

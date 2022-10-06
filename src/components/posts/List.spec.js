@@ -10,7 +10,7 @@ describe("Post", () => {
   };
 
   it("renders a post's title and body", () => {
-    const wrapper = shallow(<Post {...examplePost} />);
+    const wrapper = shallow(<List {...examplePost} />);
     expect(wrapper).toMatchSnapshot();
   });
 
@@ -18,7 +18,7 @@ describe("Post", () => {
     it("fires onPostDeleted event", () => {
       const mockedEvent = jest.fn();
       const wrapper = shallow(
-        <Post {...examplePost} onPostDeleted={mockedEvent} />
+        <List {...examplePost} onPostDeleted={mockedEvent} />
       );
       wrapper.find("#delete").simulate("click");
       expect(mockedEvent.mock.calls.length).toBe(1);
