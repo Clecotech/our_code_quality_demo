@@ -1,7 +1,7 @@
 # Jest and Enzyme Testing
 
 This project is for React Testing using Jest and Enzyme.
-![Image!](./Image/DemoScreen.png)
+![Image!](./Image/Screen.png)
 
 # Quick Start
 
