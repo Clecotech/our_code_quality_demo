@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { Grid, Container, Button, Box, TextField } from "@mui/material";
-import "./NewPost.css";
-export class NewPost extends Component {
+import "./NewList.css";
+export class NewList extends Component {
   static propTypes = {
     onPostCreated: PropTypes.func.isRequired,
   };
@@ -18,13 +18,13 @@ export class NewPost extends Component {
 
     if (title.length === 0) {
       return this.setState({
-        errorMessage: "Title not provided",
+        errorMessage: "Name not provided",
       });
     }
 
     if (body.length === 0) {
       return this.setState({
-        errorMessage: "Body not provided",
+        errorMessage: "Email not provided",
       });
     }
 
@@ -50,7 +50,7 @@ export class NewPost extends Component {
                 fullWidth
                 type="text"
                 variant="outlined"
-                label="Please Enter Your First Name"
+                label="Please Enter Your Name"
                 value={title}
                 onChange={this.onPostValueChanged("title")}
               />
@@ -58,7 +58,7 @@ export class NewPost extends Component {
               <TextField
                 fullWidth
                 type="text"
-                label="Please Enter Your Second Name"
+                label="Please Enter Your Email"
                 value={body}
                 onChange={this.onPostValueChanged("body")}
                 sx={{ marginTop: "1rem" }}

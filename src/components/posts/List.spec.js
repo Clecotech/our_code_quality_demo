@@ -1,6 +1,6 @@
 import React from "react";
 import { shallow } from "enzyme";
-import { Post } from "./Post";
+import { List } from "./List";
 
 describe("Post", () => {
   const examplePost = {

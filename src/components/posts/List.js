@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
 import { Button, Grid } from "@mui/material";
-import "./Post.css";
-export class Post extends Component {
+import "./List.css";
+export class List extends Component {
   static propTypes = {
     index: PropTypes.number,
     title: PropTypes.string,

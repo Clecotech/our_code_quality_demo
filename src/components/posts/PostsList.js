@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import PropTypes from "prop-types";
-import { Post } from "./Post";
-import "./Post.css";
+import { List } from "./List";
+import "./List.css";
 
 export class PostsList extends Component {
   static propTypes = {
@@ -17,7 +17,7 @@ export class PostsList extends Component {
   render() {
     const { posts, onPostDeleted } = this.props;
     const rows = posts.map(({ title, body }, index) => (
-      <Post
+      <List
         key={`${title}-${body}-${index}`}
         index={index}
         title={title}

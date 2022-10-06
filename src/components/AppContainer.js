@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { NewPost } from "./posts/NewPost";
+import { NewList } from "./posts/NewList";
 import { PostsList } from "./posts/PostsList";
 
 export class AppContainer extends Component {
@@ -28,7 +28,7 @@ export class AppContainer extends Component {
     const { addPost } = this;
     const { posts } = this.state;
     return [
-      <NewPost key="new-post" onPostCreated={addPost} />,
+      <NewList key="new-post" onPostCreated={addPost} />,
       posts.length > 0 ? (
         <PostsList
           key="posts-list"

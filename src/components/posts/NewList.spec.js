@@ -1,6 +1,6 @@
 import React from "react";
 import { shallow, mount } from "enzyme";
-import { NewPost } from "./NewPost";
+import { NewPost } from "./NewList";
 
 describe("NewPost", () => {
   it("renders empty by default", () => {
