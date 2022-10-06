@@ -1,15 +1,16 @@
-# Jest/Enzyme/Snapshot Examples
+# Jest and Enzyme Testing
 
-This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
+This project is for React Testing using Jest and Enzyme.
+![Image!](./Image/DemoScreen.png)
 
 # Quick Start
 
 ```
-yarn install
-yarn start
+npm install
+npm start
 ```
 
-The above commands will install dependencies and start the app. To run tests, run `yarn test` on a separate command line.
+The above commands will install dependencies and start the app. To run tests, run `npm test` on a separate command line.
 
 ## Testing libraries
 
